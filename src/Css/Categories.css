@@ -1,0 +1,27 @@
+
+#catDiv{
+    width: 70vw;
+    font-weight:400;
+}
+#catDiv p:hover{
+    color: #3d75dd;
+    cursor: pointer;
+    
+}
+#carBanner{
+    width: 100%;
+    margin-top: 30px;
+}
+@media(max-width:968px){
+    #catDiv{
+        width: 100%;
+
+    }
+}
+
+@media(max-width:600px){
+    
+    #carBanner{
+        width:fit-content;
+    }
+}

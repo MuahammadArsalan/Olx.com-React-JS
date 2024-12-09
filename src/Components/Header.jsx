@@ -14,12 +14,12 @@ const Header = () => {
 <div className='border border-grey w-[25vw] h-[6.5vh] max-w-xs m-5 rounded-sm'> 
     
 <select className="border border-grey w-[25vw] h-[6.5vh] max-w-x rounded-sm">
-<option disabled selected> <FaLocationArrow />Location</option>
+<option disabled> Location</option>
 
-<option> <FaLocationCrosshairs />Use Current Location</option>
+<option>Use Current Location</option>
 
-<option value="">
-<h1 style={{opacity:0.9,color:"grey"}}>Choose other location</h1></option>
+<option style={{opacity:0.9,color:"grey"}} value="Choose other location">
+Choose other location</option>
 <option>Pakistan</option>
 <option>Karachi,Pakistan</option>
 <option>Balochistan,Pakistan</option>
@@ -65,9 +65,9 @@ const Header = () => {
 </div>
 </div>
 
-
-
 </section>
+<hr />
+
 </> 
  )
 }
